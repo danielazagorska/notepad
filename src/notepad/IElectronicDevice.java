@@ -1,9 +1,10 @@
 package notepad;
 
 public interface IElectronicDevice {
-	public void start();
+	void start();
 	
-	public void stop();
+	void stop();
 	
-	public void isStarted();
+	boolean isStarted();
+	
 }

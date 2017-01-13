@@ -1,23 +1,23 @@
 package notepad;
 
 public class ElectronicSecuredNotepad extends SecuredNotepad implements IElectronicDevice {
-
+	private boolean started = false;
+	
 	@Override
 	public void start() {
-		// TODO Auto-generated method stub
-
+		started = true;
+		System.out.println("Notepad has been started!");
 	}
 
 	@Override
 	public void stop() {
-		// TODO Auto-generated method stub
-
+		started = false;
+		System.out.println("Notepad has been stopped!");
 	}
 
 	@Override
-	public void isStarted() {
-		// TODO Auto-generated method stub
-
+	public boolean isStarted() {
+		return started;
 	}
 
 }
