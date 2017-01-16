@@ -1,8 +1,10 @@
 package notepad;
 
+import java.util.Scanner;
+
 public class ElectronicSecuredNotepad extends SecuredNotepad implements IElectronicDevice {
 	private boolean started = false;
-	
+
 	@Override
 	public void start() {
 		started = true;
@@ -19,5 +21,4 @@ public class ElectronicSecuredNotepad extends SecuredNotepad implements IElectro
 	public boolean isStarted() {
 		return started;
 	}
-
 }

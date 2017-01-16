@@ -3,13 +3,18 @@ package notepad;
 import java.util.Scanner;
 
 class Demo {
+	ElectronicSecuredNotepad notepad = new ElectronicSecuredNotepad();
+	public String[] menu = new String[] { "Start Notepad", "Stop Notepad", "Select permanent password",
+			"Create new page", "Print page", "Replace text", "Delete text", "View all pages" };
 
-	public static void main(String[] args) {
-		ElectronicSecuredNotepad notepad = new ElectronicSecuredNotepad();
-		String menu = "1. Start Notepad" + '\n' + "2. Stop Notepad" + '\n' + "3. Select permanent password" + '\n'
-				+ "4. Create new page" + '\n' + "5. Print page" + '\n' + "6. Replace text" + '\n' + "7. Delete text"
-				+ '\n' + "8. View all pages";
-		System.out.println("Select one of the following options:" + '\n' + menu + '\n');
+	public void menu() {
+		System.out.println("Select one of the following options:" + '\n');
+		for (int i = 0; i < menu.length; i++) {
+			System.out.println(String.valueOf(i + 1) + ". " + menu[i] + "\n");
+		}
+		System.out.println('\n');
+	}
+	private void userInput(){
 		Scanner sc = new Scanner(System.in);
 		String userSelection = sc.next();
 		int menuSelection = Integer.parseInt(userSelection);
@@ -61,6 +66,14 @@ class Demo {
 			break;
 		}
 		sc.close();
+	}
+	
+
+	public static void main(String[] args) {
+		
+		
+		
+		
 	}
 
 }
