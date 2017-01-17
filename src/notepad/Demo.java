@@ -5,7 +5,7 @@ import java.util.Scanner;
 class Demo {
 	ElectronicSecuredNotepad notepad = new ElectronicSecuredNotepad();
 	public String[] menu = new String[] { "Start Notepad", "Stop Notepad", "Select permanent password",
-			"Create new page", "Print page", "Replace text", "Delete text", "View all pages" };
+			"Create new page", "Print page", "Replace text", "Delete text", "View all pages", "Exit" };
 
 	public void menu() {
 		System.out.println("Select one of the following options:" + '\n');
@@ -14,7 +14,8 @@ class Demo {
 		}
 		System.out.println('\n');
 	}
-	private void userInput(){
+
+	private void userInput() {
 		Scanner sc = new Scanner(System.in);
 		String userSelection = sc.next();
 		int menuSelection = Integer.parseInt(userSelection);
@@ -42,7 +43,7 @@ class Demo {
 			System.out.println("Select a page number to print:" + '\n');
 			Scanner pgNmbr = new Scanner(System.in);
 			String userPage = pgNmbr.next();
-			int printPage = Integer.parseInt(userPage);		
+			int printPage = Integer.parseInt(userPage);
 			notepad.printPage(printPage);
 			break;
 		case 6:
@@ -64,16 +65,18 @@ class Demo {
 		case 8:
 			notepad.viewAllPages();
 			break;
+		case 9:
+			break;
 		}
 		sc.close();
 	}
-	
 
 	public static void main(String[] args) {
-		
-		
-		
-		
+		Demo securenotepad = new Demo();
+		int running = 1;
+		while (running == 1) {
+			securenotepad.menu();
+			securenotepad.userInput();
+		}
 	}
-
 }
