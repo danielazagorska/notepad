@@ -16,7 +16,7 @@ public class SecuredNotepad extends SimpleNotepad {
 
 	}
 
-	private boolean authenticate(String password) {
+	private boolean authenticate() {
 		System.out.println("Please enter the password");
 		Scanner sc = new Scanner(System.in);
 		for (int i = 0; i < 3; i++) {
@@ -45,8 +45,7 @@ public class SecuredNotepad extends SimpleNotepad {
 
 	@Override
 	public Page createPage(String title, String text) {
-		String password = null;
-		if (authenticate(password)) {
+		if (authenticate()) {
 		return super.createPage(title, text);
 		}
 		return null;
@@ -54,16 +53,14 @@ public class SecuredNotepad extends SimpleNotepad {
 
 	@Override
 	public void replaceText(int pageNumber, String text) {
-		String password = null;
-		if (authenticate(password)) {
+		if (authenticate()) {
 			super.replaceText(pageNumber, text);
 		}
 	}
 
 	@Override
 	public void deleteText(int pageNumber) {
-		String password = null;
-		if (authenticate(password)) {
+		if (authenticate()) {
 		super.deleteText(pageNumber);
 		}
 	}
@@ -71,7 +68,7 @@ public class SecuredNotepad extends SimpleNotepad {
 	@Override
 	public void viewAllPages() {
 		String password = null;
-		if (authenticate(password)) {
+		if (authenticate()) {
 		super.viewAllPages();
 		}
 	}
