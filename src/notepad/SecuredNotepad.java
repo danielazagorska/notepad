@@ -7,9 +7,9 @@ import java.security.NoSuchAlgorithmException;
 import java.util.Scanner;
 
 public class SecuredNotepad extends SimpleNotepad {
-	String permanentPass;
+	private String permanentPass;
 
-	public void enterPassword() {
+	private void enterPassword() {
 		System.out.println("Please set a password");
 		Scanner sc = new Scanner(System.in);
 		permanentPass = hash(sc.nextLine());
