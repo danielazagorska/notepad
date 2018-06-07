@@ -1,6 +1,6 @@
-package notepad;
+package notepad.notepadmainfunctions;
 
-public class Page {
+	public class PageNotepad {
 	private String title;
 	private String text;
 	private int pageNumber;

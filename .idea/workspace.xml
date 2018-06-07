@@ -1,8 +1,30 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="ArtifactsWorkspaceSettings">
+    <artifacts-to-build>
+      <artifact name="notepad:jar" />
+    </artifacts-to-build>
+  </component>
   <component name="ChangeListManager">
     <list default="true" id="ca6d88e1-afb9-41c2-ab49-cf7da1231429" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/src/notepad/SecuredNotepad.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/notepad/SecuredNotepad.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/artifacts/notepad_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/notepad/MANIFEST.MF" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/notepad/notepad/Demo.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/notepad/notepad/Demo.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/notepad/notepad/ElectronicSecuredNotepad.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/notepad/notepad/IElectronicDevice.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/notepad/notepad/INotepad.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/notepad/notepad/Page.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/notepad/notepad/SecuredNotepad.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/notepad/notepad/SimpleNotepad.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/notepad/Demo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/notepad/com.notepad.Demo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/notepad/ElectronicSecuredNotepad.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/notepad/notepadmainfunctions/ElectronicSecuredNotepad.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/notepad/IElectronicDevice.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/notepad/inotepad/IElectronicDevice.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/notepad/INotepad.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/notepad/inotepad/INotepad.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/notepad/Page.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/notepad/notepadmainfunctions/PageNotepad.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/notepad/SecuredNotepad.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/notepad/notepadmainfunctions/SecuredNotepad.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/notepad/SimpleNotepad.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/notepad/notepadmainfunctions/SimpleNotepad.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -14,43 +36,106 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="Page.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/notepad/Page.java">
+      <file leaf-file-name="PageNotepad.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/notepad/notepadmainfunctions/PageNotepad.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="34">
-              <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+              <caret line="2" column="11" selection-start-line="2" selection-start-column="11" selection-end-line="2" selection-end-column="11" />
+              <folding>
+                <element signature="e#278#279#0" expanded="true" />
+                <element signature="e#301#302#0" expanded="true" />
+                <element signature="e#328#329#0" expanded="true" />
+                <element signature="e#346#347#0" expanded="true" />
+                <element signature="e#385#386#0" expanded="true" />
+                <element signature="e#428#429#0" expanded="true" />
+                <element signature="e#457#458#0" expanded="true" />
+                <element signature="e#476#477#0" expanded="true" />
+                <element signature="e#515#516#0" expanded="true" />
+                <element signature="e#540#541#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file leaf-file-name="SimpleNotepad.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/notepad/SimpleNotepad.java">
+        <entry file="file://$PROJECT_DIR$/src/notepad/notepadmainfunctions/SimpleNotepad.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="17">
+            <state relative-caret-position="136">
+              <caret line="11" lean-forward="true" selection-start-line="11" selection-end-line="11" />
+              <folding>
+                <element signature="e#222#223#0" expanded="true" />
+                <element signature="e#260#261#0" expanded="true" />
+                <element signature="method#createPage#0;class#SimpleNotepad#0" />
+                <element signature="method#printPage#0;class#SimpleNotepad#0" />
+                <element signature="method#replaceText#0;class#SimpleNotepad#0" />
+                <element signature="method#deleteText#0;class#SimpleNotepad#0" />
+                <element signature="method#viewAllPages#0;class#SimpleNotepad#0" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="INotepad.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/notepad/inotepad/INotepad.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="34">
+              <caret line="2" column="37" selection-start-line="2" selection-start-column="37" selection-end-line="2" selection-end-column="37" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="SecuredNotepad.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/notepad/notepadmainfunctions/SecuredNotepad.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="68">
               <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="SecuredNotepad.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/notepad/SecuredNotepad.java">
+      <file leaf-file-name="IElectronicDevice.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/notepad/inotepad/IElectronicDevice.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="119">
-              <caret line="11" column="11" selection-start-line="11" selection-start-column="11" selection-end-line="11" selection-end-column="11" />
+            <state relative-caret-position="34">
+              <caret line="2" column="17" selection-start-line="2" selection-start-column="17" selection-end-line="2" selection-end-column="17" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Demo.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/notepad/Demo.java">
+      <file leaf-file-name="com.notepad.Demo.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/notepad/com.notepad.Demo.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="329">
-              <caret line="21" column="41" lean-forward="true" selection-start-line="21" selection-start-column="41" selection-end-line="21" selection-end-column="41" />
+            <state relative-caret-position="777">
+              <caret line="87" column="1" lean-forward="true" selection-start-line="87" selection-start-column="1" selection-end-line="87" selection-end-column="1" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ElectronicSecuredNotepad.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/notepad/notepadmainfunctions/ElectronicSecuredNotepad.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="68">
+              <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#503#504#0" expanded="true" />
+                <element signature="e#524#525#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
     </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -58,8 +143,19 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
+        <option value="$PROJECT_DIR$/src/notepad/SimpleNotepad.java" />
+        <option value="$PROJECT_DIR$/src/notepad/SaveToFile.java" />
         <option value="$PROJECT_DIR$/src/notepad/Demo.java" />
+        <option value="$PROJECT_DIR$/src/notepad/com.notepad.ElectronicSecuredNotepad.java" />
+        <option value="$PROJECT_DIR$/src/notepad/notepadmain/SimpleNotepad.java" />
         <option value="$PROJECT_DIR$/src/notepad/SecuredNotepad.java" />
+        <option value="$PROJECT_DIR$/src/notepad/securednotepad/com.notepad.ElectronicSecuredNotepad.java" />
+        <option value="$PROJECT_DIR$/src/notepad/securednotepad/SecuredNotepad.java" />
+        <option value="$PROJECT_DIR$/src/notepad/com.notepad.Demo.java" />
+        <option value="$PROJECT_DIR$/src/notepad/notepadmainfunctions/ElectronicSecuredNotepad.java" />
+        <option value="$PROJECT_DIR$/src/notepad/notepadmainfunctions/SimpleNotepad.java" />
+        <option value="$PROJECT_DIR$/src/notepad/notepadmainfunctions/Page.java" />
+        <option value="$PROJECT_DIR$/src/notepad/notepadmainfunctions/PageNotepad.java" />
       </list>
     </option>
   </component>
@@ -74,8 +170,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="PackagesPane" />
       <pane id="AndroidView" />
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -88,18 +184,27 @@
               <item name="notepad" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="notepad" type="b2602c69:ProjectViewProjectNode" />
-              <item name="notepad" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="notepad" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
+      <pane id="Scope" />
     </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="Downloaded.Files.Path.Enabled" value="false" />
+    <property name="Repository.Attach.JavaDocs" value="false" />
+    <property name="Repository.Attach.Sources" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/out/artifacts/notepad_jar/notepad.jar" />
+    <property name="project.structure.last.edited" value="Artifacts" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Danchetron\IdeaProjects\notepad\src\notepad" />
+      <recent name="C:\Users\Danchetron\IdeaProjects\notepad\src\mainnotepad" />
+    </key>
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -113,14 +218,14 @@
       </list>
     </option>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="JAR Application.Unnamed">
     <configuration name="Demo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="notepad.Demo" />
       <module name="notepad" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="notepad.*" />
+          <option name="PATTERN" value="notepad.notepadmain.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -144,6 +249,16 @@
       </option>
       <patterns />
     </configuration>
+    <configuration name="Unnamed" type="JarApplication" factoryName="JAR Application">
+      <option name="JAR_PATH" value="$PROJECT_DIR$/out/artifacts/notepad_jar/notepad.jar" />
+      <option name="WORKING_DIRECTORY" value="C:\Users\Danchetron\IdeaProjects\notepad" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <method>
+        <option name="BuildArtifacts" enabled="true">
+          <artifact name="notepad:jar" />
+        </option>
+      </method>
+    </configuration>
     <configuration default="true" type="TestNG" factoryName="TestNG">
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
@@ -166,6 +281,10 @@
       <properties />
       <listeners />
     </configuration>
+    <list>
+      <item itemvalue="JAR Application.Unnamed" />
+      <item itemvalue="Application.Demo" />
+    </list>
     <recent_temporary>
       <list>
         <item itemvalue="Application.Demo" />
@@ -187,22 +306,22 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info anchor="right" id="Palette" order="3" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Messages" />
+      <window_info anchor="bottom" id="Messages" order="7" weight="0.32946146" />
       <window_info anchor="right" id="Palette&#9;" order="3" />
       <window_info id="Image Layers" order="2" />
       <window_info anchor="right" id="Capture Analysis" order="3" />
       <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
       <window_info anchor="right" id="Maven Projects" order="3" />
       <window_info anchor="bottom" id="Version Control" order="7" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.32946146" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.32946146" />
       <window_info anchor="bottom" id="Terminal" order="7" />
       <window_info id="Capture Tool" order="2" />
       <window_info id="Designer" order="2" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.18020834" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.31197917" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32946146" />
       <window_info id="Learn" order="2" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -213,33 +332,243 @@
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
-      <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
     </layout>
   </component>
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/notepad/Page.java">
+    <entry file="file://$PROJECT_DIR$/src/notepad/notepadmainfunctions/PageNotepad.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="255">
-          <caret line="15" lean-forward="true" selection-start-line="15" selection-end-line="15" />
+          <caret line="15" selection-start-line="15" selection-end-line="15" />
+          <folding>
+            <element signature="e#278#279#0" expanded="true" />
+            <element signature="e#301#302#0" expanded="true" />
+            <element signature="e#328#329#0" expanded="true" />
+            <element signature="e#346#347#0" expanded="true" />
+            <element signature="e#385#386#0" expanded="true" />
+            <element signature="e#428#429#0" expanded="true" />
+            <element signature="e#457#458#0" expanded="true" />
+            <element signature="e#476#477#0" expanded="true" />
+            <element signature="e#515#516#0" expanded="true" />
+            <element signature="e#540#541#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/notepad/Page.java">
+    <entry file="file://$PROJECT_DIR$/src/notepad/notepadmainfunctions/SimpleNotepad.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
+          <folding>
+            <element signature="e#222#223#0" expanded="true" />
+            <element signature="e#260#261#0" expanded="true" />
+            <element signature="method#createPage#0;class#SimpleNotepad#0" />
+            <element signature="method#printPage#0;class#SimpleNotepad#0" />
+            <element signature="method#replaceText#0;class#SimpleNotepad#0" />
+            <element signature="method#deleteText#0;class#SimpleNotepad#0" />
+            <element signature="method#viewAllPages#0;class#SimpleNotepad#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/notepad/inotepad/INotepad.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="17" selection-start-line="2" selection-start-column="17" selection-end-line="2" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/notepad/SaveToFile.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" selection-start-line="2" selection-end-line="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/notepad/notepadmainfunctions/SecuredNotepad.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="731">
+          <caret line="47" column="29" lean-forward="true" selection-start-line="47" selection-start-column="29" selection-end-line="47" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/notepad/com.notepad.Demo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1309">
+          <caret line="77" column="40" selection-start-line="77" selection-start-column="40" selection-end-line="77" selection-end-column="40" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/notepad/notepadmainfunctions/ElectronicSecuredNotepad.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="374">
+          <caret line="24" lean-forward="true" selection-start-line="24" selection-end-line="24" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#503#504#0" expanded="true" />
+            <element signature="e#524#525#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/notepad/notepadmainfunctions/PageNotepad.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="15" selection-start-line="15" selection-end-line="15" />
+          <folding>
+            <element signature="e#278#279#0" expanded="true" />
+            <element signature="e#301#302#0" expanded="true" />
+            <element signature="e#328#329#0" expanded="true" />
+            <element signature="e#346#347#0" expanded="true" />
+            <element signature="e#385#386#0" expanded="true" />
+            <element signature="e#428#429#0" expanded="true" />
+            <element signature="e#457#458#0" expanded="true" />
+            <element signature="e#476#477#0" expanded="true" />
+            <element signature="e#515#516#0" expanded="true" />
+            <element signature="e#540#541#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/notepad/notepadmainfunctions/SimpleNotepad.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
+          <folding>
+            <element signature="e#222#223#0" expanded="true" />
+            <element signature="e#260#261#0" expanded="true" />
+            <element signature="method#createPage#0;class#SimpleNotepad#0" />
+            <element signature="method#printPage#0;class#SimpleNotepad#0" />
+            <element signature="method#replaceText#0;class#SimpleNotepad#0" />
+            <element signature="method#deleteText#0;class#SimpleNotepad#0" />
+            <element signature="method#viewAllPages#0;class#SimpleNotepad#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/notepad/inotepad/INotepad.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="17" selection-start-line="2" selection-start-column="17" selection-end-line="2" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/notepad/SaveToFile.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" selection-start-line="2" selection-end-line="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/notepad/com.notepad.Demo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1309">
+          <caret line="77" column="40" lean-forward="true" selection-start-line="77" selection-start-column="40" selection-end-line="77" selection-end-column="40" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/notepad/notepadmainfunctions/ElectronicSecuredNotepad.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/notepad/notepadmainfunctions/SecuredNotepad.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1139">
+          <caret line="71" column="19" selection-start-line="71" selection-start-column="19" selection-end-line="71" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/notepad/notepadmainfunctions/PageNotepad.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+          <folding>
+            <element signature="e#278#279#0" expanded="true" />
+            <element signature="e#301#302#0" expanded="true" />
+            <element signature="e#328#329#0" expanded="true" />
+            <element signature="e#346#347#0" expanded="true" />
+            <element signature="e#385#386#0" expanded="true" />
+            <element signature="e#428#429#0" expanded="true" />
+            <element signature="e#457#458#0" expanded="true" />
+            <element signature="e#476#477#0" expanded="true" />
+            <element signature="e#515#516#0" expanded="true" />
+            <element signature="e#540#541#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/notepad/notepadmainfunctions/SimpleNotepad.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
+          <folding>
+            <element signature="e#222#223#0" expanded="true" />
+            <element signature="e#260#261#0" expanded="true" />
+            <element signature="method#createPage#0;class#SimpleNotepad#0" />
+            <element signature="method#printPage#0;class#SimpleNotepad#0" />
+            <element signature="method#replaceText#0;class#SimpleNotepad#0" />
+            <element signature="method#deleteText#0;class#SimpleNotepad#0" />
+            <element signature="method#viewAllPages#0;class#SimpleNotepad#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/notepad/com.notepad.Demo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="357">
+          <caret line="21" column="41" selection-start-line="21" selection-start-column="41" selection-end-line="21" selection-end-column="41" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/notepad/notepadmainfunctions/SecuredNotepad.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="527">
+          <caret line="35" column="58" lean-forward="true" selection-start-line="35" selection-start-column="58" selection-end-line="35" selection-end-column="58" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/notepad/notepadmainfunctions/PageNotepad.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="34">
           <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/notepad/SimpleNotepad.java">
+    <entry file="file://$PROJECT_DIR$/src/notepad/notepadmainfunctions/SimpleNotepad.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
+        <state relative-caret-position="85">
           <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/notepad/com.notepad.Demo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="357">
+          <caret line="21" column="41" lean-forward="true" selection-start-line="21" selection-start-column="41" selection-end-line="21" selection-end-column="41" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/notepad/notepadmainfunctions/SecuredNotepad.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="11" column="11" selection-start-line="11" selection-start-column="11" selection-end-line="11" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/notepad/notepadmainfunctions/PageNotepad.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="15" lean-forward="true" selection-start-line="15" selection-end-line="15" />
         </state>
       </provider>
     </entry>
@@ -250,19 +579,174 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/notepad/Demo.java">
+    <entry file="file://$PROJECT_DIR$/src/notepad/inotepad/IElectronicDevice.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="329">
-          <caret line="21" column="41" lean-forward="true" selection-start-line="21" selection-start-column="41" selection-end-line="21" selection-end-column="41" />
+        <state relative-caret-position="34">
+          <caret line="2" column="17" selection-start-line="2" selection-start-column="17" selection-end-line="2" selection-end-column="17" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/notepad/SecuredNotepad.java">
+    <entry file="file://$PROJECT_DIR$/src/notepad/SaveToFile.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="11" column="11" selection-start-line="11" selection-start-column="11" selection-end-line="11" selection-end-column="11" />
+        <state relative-caret-position="34">
+          <caret line="2" selection-start-line="2" selection-end-line="2" />
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/notepad/MANIFEST.MF">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="1" column="12" selection-start-line="1" selection-start-column="12" selection-end-line="1" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/notepad/notepadmainfunctions/ElectronicSecuredNotepad.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#503#504#0" expanded="true" />
+            <element signature="e#524#525#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/notepad/notepadmainfunctions/SecuredNotepad.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/notepad/notepadmainfunctions/SimpleNotepad.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="11" lean-forward="true" selection-start-line="11" selection-end-line="11" />
+          <folding>
+            <element signature="e#222#223#0" expanded="true" />
+            <element signature="e#260#261#0" expanded="true" />
+            <element signature="method#createPage#0;class#SimpleNotepad#0" />
+            <element signature="method#printPage#0;class#SimpleNotepad#0" />
+            <element signature="method#replaceText#0;class#SimpleNotepad#0" />
+            <element signature="method#deleteText#0;class#SimpleNotepad#0" />
+            <element signature="method#viewAllPages#0;class#SimpleNotepad#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/notepad/inotepad/INotepad.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="37" selection-start-line="2" selection-start-column="37" selection-end-line="2" selection-end-column="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/notepad/notepadmainfunctions/PageNotepad.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="11" selection-start-line="2" selection-start-column="11" selection-end-line="2" selection-end-column="11" />
+          <folding>
+            <element signature="e#278#279#0" expanded="true" />
+            <element signature="e#301#302#0" expanded="true" />
+            <element signature="e#328#329#0" expanded="true" />
+            <element signature="e#346#347#0" expanded="true" />
+            <element signature="e#385#386#0" expanded="true" />
+            <element signature="e#428#429#0" expanded="true" />
+            <element signature="e#457#458#0" expanded="true" />
+            <element signature="e#476#477#0" expanded="true" />
+            <element signature="e#515#516#0" expanded="true" />
+            <element signature="e#540#541#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/notepad/com.notepad.Demo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="777">
+          <caret line="87" column="1" lean-forward="true" selection-start-line="87" selection-start-column="1" selection-end-line="87" selection-end-column="1" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ArtifactsStructureConfigurable.UI">
+        <settings>
+          <artifact-editor />
+          <last-edited>notepad:jar</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+                <option value="0.5" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="FacetStructureConfigurable.UI">
+        <settings>
+          <last-edited>No facets are configured</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="GlobalLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="JdkListConfigurable.UI">
+        <settings>
+          <last-edited>1.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ModuleStructureConfigurable.UI">
+        <settings>
+          <last-edited>notepad</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+                <option value="0.6" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
   </component>
 </project>

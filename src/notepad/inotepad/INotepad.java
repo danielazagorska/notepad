@@ -1,7 +1,9 @@
-package notepad;
+package notepad.inotepad;
+
+import notepad.notepadmainfunctions.PageNotepad;
 
 public interface INotepad {
-	public Page createPage(String title, String text);
+	public PageNotepad createPage(String title, String text);
 
 	public void replaceText(int pageNumber, String text);
 

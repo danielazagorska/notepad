@@ -1,6 +1,10 @@
 package notepad;
 
+import notepad.notepadmainfunctions.ElectronicSecuredNotepad;
+
+
 import java.util.Scanner;
+
 
 class Demo {
 	private ElectronicSecuredNotepad notepad = new ElectronicSecuredNotepad();

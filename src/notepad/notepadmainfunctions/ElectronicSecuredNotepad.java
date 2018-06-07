@@ -1,6 +1,6 @@
-package notepad;
+package notepad.notepadmainfunctions;
 
-import java.util.Scanner;
+import notepad.inotepad.IElectronicDevice;
 
 public class ElectronicSecuredNotepad extends SecuredNotepad implements IElectronicDevice {
 	private boolean started = false;

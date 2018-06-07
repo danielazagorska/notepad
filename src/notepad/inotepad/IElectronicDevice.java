@@ -1,4 +1,4 @@
-package notepad;
+package notepad.inotepad;
 
 public interface IElectronicDevice {
 	void start();
